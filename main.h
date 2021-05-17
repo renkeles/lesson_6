@@ -9,5 +9,7 @@ void clearPtrArray(int*);
 void clearPtrArrays(int**, size_t);
 char randChar();
 void fillFile(std::ofstream&);
-void createFile(std::string);
+void fillFile(std::string, std::string);
+void createFile(std::string, bool);
+std::string readFile(std::string);
 
